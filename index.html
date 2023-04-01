@@ -4,92 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 5</title>
+    <title>Fuentes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Gloock&family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
     <style>
-        input{
-            margin: 50px;
+        body{
+            font-family: 'Gloock', serif;
         }
-        #enviar2{
-            background-color: rgb(39, 39, 228);
-            color: aliceblue;
-            padding: 20px;
-            border-radius: 10%;
-            border: 0px; 
-
+        h2{
+            font-family: 'Noto Sans JP', sans-serif;
         }
-        #enviar2:hover{
-            background-color: rgb(119, 116, 218);
-            cursor: crosshair;
-        }
+        
     </style>
 </head>
-<body>
-    <form action="">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
-
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido">
-
-        <input type="submit" value="Enviar">
-
-
-    </form>
-    <hr style="border: 1px solid red;">
-    <form action="" name="forma2">
-        <fieldset>
-            <label for="nombre2">Nombre:</label>
-        <input type="text" name="nombre2" id="nombre2">
-
-        <label for="apellido2">Apellido:</label>
-        <input type="text" name="apellido2" id="apellido2">
-
-        <label for="correo">Correo:</label>
-        <input type="email" 
-        name="correo" id="correo" required 
-        placeholder="Ingresa un correo valido">
-
-        <label for="edad">Edad:</label>
-        <input type="number" name="edad" id="edad">
-
-        <input type="submit" value="Enviar" id="enviar2"
-        class="btnEnviar">
-        <br><br>
-        <label for="lenguaje">Seleccione un lenguaje</label>
-        <input type="radio" name="lenguaje" id="html">HTML
-        <input type="radio" name="lenguaje" id="css">CSS
-        <input type="radio" name="lenguaje" id="js" checked>JV
-        <br><br>
-        <label for="paises">paises que eh visitado</label>
-        <input type="checkbox" name="paises" id="Canada">Canada
-        <input type="checkbox" name="paises" id="Mexico">Mexico
-        <input type="checkbox" name="paises" id="EEUU">EEUU
-        <br><br>
-
-        <label for="autos">Autos</label>
-        <select name="autos" id="autos">
-            <option value="1">Chevrolet</option>
-            <option value="2">Susuki</option>
-            <option value="3">Volkswagen</option>
-            <option value="4">Seat</option>
-        </select>
-        <br><br>
-        <label for="color">Color:</label>
-        <input type="color" name="color" id="color">
-
-        <label for="fecha">Fecha:</label>
-        <input type="date" name="fecha" id="fecha">
-
-        <label for="hora">Hora:</label>
-        <input type="hora" name="hora" id="hora">
-
-        <label for="Cumple">Cumple:</label>
-        <input type="datetime-local" name="cumple" id="cumple">
-
-        <input type="submit" value="Enviar" id="enviar2" class="btn">
-
-        
-        </fieldset>
-    </form>
+    <body>
+    <header>
+        <h1>
+            Ciudades del mundo
+        </h1>
+            <h2>Que me gustaria visitar</h2>
+    </header>
+        <section>
+            <nav>
+             <ul>
+                  <li>
+                    <a href="Londres.html">
+                        Londres
+                    </a>
+                 </li>
+                 <li>
+                    <a href="Tokio.html">
+                        Tokio
+                    </a>
+                 </li>
+                    <li>
+                    <a href="Dubai.html">
+                        Dubai
+                    </a>
+                 </li>
+                 <li> 
+                    <a href="Montreal.html">
+                        Montreal
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    
 </body>
 </html>
